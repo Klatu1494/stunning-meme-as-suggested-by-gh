@@ -1,7 +1,7 @@
-class Creature {
+abstract class Creature {
     private readonly actionHeap: Heap<Action>;
 
-    public constructor(
+    protected constructor(
         private level: number,
         private readonly primarySkill: Skill,
         private readonly secondarySkill: Skill,
