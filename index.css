@@ -1,4 +1,4 @@
-.grid-container-main{
+#grid-container-main{
 	display: grid;
 	margin: 0px, 0px, 0px, 0px;
 	width: 100%;
@@ -9,10 +9,12 @@
 	border: black 5px;
 }
 
-.start-button{
+#start-button{
 	display: block;
-	grid-column: 3 / 3;
-	grid-row: 3 / 3;
+	grid-column: 3 / 4;
+	grid-row: 3 / 4;
+	margin: auto auto auto auto;
+	width: 55%;
 
 
 
