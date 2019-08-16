@@ -15,9 +15,15 @@
 	grid-row: 3 / 4;
 	margin: auto auto auto auto;
 	width: 55%;
-
-
-
+	}
+	
+@font-face {
+font-family: 'deutsch_gothicnormal';
+src: url('resources\deutch-gothic-font\deutsch-webfont.woff2') format('woff2'),
+url('resources\deutch-gothic-font\deutch-webfont.woff') format('woff');
+font-weight: normal;
+font-style: normal;
+}
 
 
 }
