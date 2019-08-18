@@ -1,0 +1,1 @@
+type StatIdValuePair = [StatId, number];
